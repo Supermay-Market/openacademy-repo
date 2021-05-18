@@ -6,7 +6,7 @@ from odoo import models, fields, api
 class Course(models.Model):
     _name = 'openacademy.course'
     _description = 'tabla para almacenar cursos'
-
+    
     name = fields.Chartring='Title', required = True)
     descripcion = fileds.Text()
 #     value = fields.Integer()
